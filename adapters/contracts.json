@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "adapterContracts": [
+    {
+      "id": "session-runtime",
+      "required": [
+        "listSessions",
+        "startSession",
+        "stopSession"
+      ]
+    },
+    {
+      "id": "skill-surface",
+      "required": [
+        "listSkills",
+        "describeSkill"
+      ]
+    },
+    {
+      "id": "tool-surface",
+      "required": [
+        "listTools"
+      ]
+    },
+    {
+      "id": "reference-catalog",
+      "required": [
+        "listSources"
+      ]
+    }
+  ]
+}
