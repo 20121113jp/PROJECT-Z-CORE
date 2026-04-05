@@ -1,0 +1,17 @@
+{
+  "id": "openclaw",
+  "vendorId": "openclaw",
+  "label": "OpenClaw Adapter",
+  "vendorLabel": "OpenClaw",
+  "sourceUrl": "https://github.com/openclaw/openclaw",
+  "repoPath": "vendors/openclaw",
+  "capabilities": [
+    "session-runtime",
+    "skill-surface",
+    "tool-surface",
+    "reference-catalog",
+    "desktop-surface",
+    "remote-control"
+  ],
+  "status": "planned"
+}

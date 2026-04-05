@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T05:17:19.753Z",
+  "generatedAt": "2026-04-05T05:28:50.500Z",
   "officialSources": [
     {
       "category": "anthropic-product",
@@ -15,101 +15,4 @@
       "category": "anthropic-product",
       "name": "Claude Cowork help center",
       "url": "https://support.claude.com/en/articles/13345190-get-started-with-cowork"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/claude-code",
-      "url": "https://github.com/anthropics/claude-code"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/claude-code-action",
-      "url": "https://github.com/anthropics/claude-code-action"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/claude-agent-sdk-python",
-      "url": "https://github.com/anthropics/claude-agent-sdk-python"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/claude-agent-sdk-typescript",
-      "url": "https://github.com/anthropics/claude-agent-sdk-typescript"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/claude-plugins-community",
-      "url": "https://github.com/anthropics/claude-plugins-community"
-    },
-    {
-      "category": "anthropic-repo",
-      "name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins"
-    },
-    {
-      "category": "open-source-platform",
-      "name": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw"
-    },
-    {
-      "category": "open-source-platform",
-      "name": "OpenClaw docs",
-      "url": "https://docs.openclaw.ai/"
-    },
-    {
-      "category": "mcp",
-      "name": "modelcontextprotocol/servers",
-      "url": "https://github.com/modelcontextprotocol/servers"
-    },
-    {
-      "category": "mcp",
-      "name": "modelcontextprotocol/typescript-sdk",
-      "url": "https://github.com/modelcontextprotocol/typescript-sdk"
-    },
-    {
-      "category": "mcp",
-      "name": "modelcontextprotocol/python-sdk",
-      "url": "https://github.com/modelcontextprotocol/python-sdk"
-    },
-    {
-      "category": "adjacent-agent",
-      "name": "openai/codex",
-      "url": "https://github.com/openai/codex"
-    },
-    {
-      "category": "adjacent-agent",
-      "name": "openai/openai-agents-python",
-      "url": "https://github.com/openai/openai-agents-python"
-    }
-  ],
-  "vendorTargets": [
-    {
-      "id": "claude-code",
-      "path": "vendors/anthropics-claude-code",
-      "label": "Anthropic Claude Code",
-      "sourceUrl": "https://github.com/anthropics/claude-code"
-    },
-    {
-      "id": "openclaw",
-      "path": "vendors/openclaw",
-      "label": "OpenClaw",
-      "sourceUrl": "https://github.com/openclaw/openclaw"
-    },
-    {
-      "id": "mcp-servers",
-      "path": "vendors/modelcontextprotocol-servers",
-      "label": "Model Context Protocol Servers",
-      "sourceUrl": "https://github.com/modelcontextprotocol/servers"
-    }
-  ]
-}
+    },{

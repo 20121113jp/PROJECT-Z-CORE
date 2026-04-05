@@ -1,0 +1,15 @@
+{
+  "id": "anthropic-claude-code",
+  "vendorId": "claude-code",
+  "label": "Anthropic Claude Code Adapter",
+  "vendorLabel": "Anthropic Claude Code",
+  "sourceUrl": "https://github.com/anthropics/claude-code",
+  "repoPath": "vendors/anthropics-claude-code",
+  "capabilities": [
+    "session-runtime",
+    "tool-surface",
+    "reference-catalog",
+    "agent-runtime"
+  ],
+  "status": "planned"
+}

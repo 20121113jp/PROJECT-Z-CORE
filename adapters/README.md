@@ -15,3 +15,5 @@ Adapters let Claw Fusion support multiple upstream ecosystems without collapsing
 - `anthropic-cowork-workflows`
 - `openclaw`
 - `mcp`
+
+Each adapter should expose metadata and implement the shared contracts defined in `contracts.json`.

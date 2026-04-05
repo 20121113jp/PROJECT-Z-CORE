@@ -1,0 +1,14 @@
+{
+  "id": "mcp",
+  "vendorId": "mcp-servers",
+  "label": "Model Context Protocol Servers Adapter",
+  "vendorLabel": "Model Context Protocol Servers",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers",
+  "repoPath": "vendors/modelcontextprotocol-servers",
+  "capabilities": [
+    "tool-surface",
+    "reference-catalog",
+    "connector-surface"
+  ],
+  "status": "planned"
+}

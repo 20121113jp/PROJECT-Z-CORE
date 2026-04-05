@@ -18,6 +18,7 @@ Instead it provides:
 - a bootstrap plan for official upstream repositories
 - a place to build clean-room adapters and portable skills
 - an adapter contract for vendor-specific capabilities
+- a vendor capability matrix and adapter registry
 - GitHub-ready community files and CI
 
 ## Quick start
@@ -26,6 +27,8 @@ Instead it provides:
 node ./claw-fusion.mjs status
 node ./claw-fusion.mjs doctor
 node ./claw-fusion.mjs sources
+node ./claw-fusion.mjs adapters
+node ./claw-fusion.mjs matrix
 node ./scripts/render-vendor-matrix.mjs
 node ./scripts/bootstrap-official-sources.mjs --print
 ```
@@ -42,3 +45,9 @@ node ./scripts/bootstrap-official-sources.mjs --print
 - Keep adapters clean-room and replaceable.
 - Do not couple one upstream's private assumptions into the shared public surface.
 - Preserve feature growth by adding adapters, not by deleting upstream-specific capabilities.
+
+## Current shape
+
+- Adapter registry: planned vendors and clean-room adapter folders
+- Capability matrix: session runtime, skills, tools, references, agent runtime, desktop surfaces, remote control, connectors
+- Vendor discovery: checks local `vendors/*` folders without assuming they already exist
